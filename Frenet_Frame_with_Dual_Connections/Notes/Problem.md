@@ -114,13 +114,13 @@ give a nonzero strictly lower homogeneous direction. Normality may still remove 
 Sum the first $k$ diagonal normality equations. Terms internal to the first $k$ coordinates cancel; the only upper entry crossing the cut is $a_{k}$. Therefore
 
 $$
-\sum_{i\le k<j}D_{ji}^{2}=a_{k}^{2},\qquad 1\le k<n.
+\sum_{i \le k < j}D_{ji}^{2}=a_{k}^{2},\qquad 1 \le k < n.
 $$
 
 Hence
 
 $$
-|D_{ji}|\le\min_{i\le k<j}a_{k}\qquad(i<j).
+|D_{ji}|\le\min_{i\le k < j}a_{k}\qquad(i < j).
 $$
 
 The fixed-data solution fiber is closed, bounded, and real algebraic. It is compact. This does not exclude a curve or a higher-dimensional component. Full column rank of the reduced normality Jacobian at every real solution would imply that every point is isolated, hence that this compact fiber is finite. Numerical rank checks at recovered roots do not verify the universal premise.
