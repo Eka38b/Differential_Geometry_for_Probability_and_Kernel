@@ -97,7 +97,7 @@ the unit-speed line with tangent $(1,1)/\sqrt{2}$ gives
 
 $$
 D=E= \left( \begin{array}{rr}0&a\cr a&0\end{array}\right),\qquad
-C=\begin{pmatrix}1&0\\0&-1\end{pmatrix},\qquad S=0.
+C=\left( \begin{array}{rr}1&0\cr 0&-1\end{array}\right),\qquad S=0.
 $$
 
 The cubic form associated with $K$ is symmetric, and the constant coordinate connection matrices commute, so the connections are dual, torsion free, and flat. Both Frenet matrices are symmetric and normal with positive superdiagonals. This is an abstract statistical structure; no particular likelihood family is asserted.
