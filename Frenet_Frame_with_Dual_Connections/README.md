@@ -1,6 +1,6 @@
 # Dual Frenet moving frames: the MathOverflow finiteness problem
 
-This archive concerns only [MathOverflow question 516790](https://mathoverflow.net/q/516790): whether fixed compatible data determine finitely many pairs of real normal Hessenberg matrices arising from dual Frenet frames. It records the algebraic formulation, numerical methods and data, and the interpretation of the normality assumption through information-geometric alpha connections.
+This archive concerns [MathOverflow question 516790](https://mathoverflow.net/q/516790): whether fixed compatible data determine finitely many pairs of real normal Hessenberg matrices arising from dual Frenet frames. It records the algebraic formulation, numerical methods and data, and the interpretation of the normality assumption through information-geometric alpha connections.
 
 Updated 16 November 2026. General finiteness is unresolved in this archive. Numerical recovery counts are lower bounds, except where a separate exact argument is supplied.
 
