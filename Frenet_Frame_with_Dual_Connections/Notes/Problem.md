@@ -132,7 +132,7 @@ A singular Jacobian does not establish continuous freedom. For example, a cyclic
 A four-dimensional zero-source example uses
 
 ```math
-C=\left\{ \begin{array}{rrrr}
+C=\left( \begin{array}{rrrr}
 1&0&0&0\cr
 0&0&0&-1\cr
 0&0&1&0\cr
