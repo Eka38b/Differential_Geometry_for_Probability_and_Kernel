@@ -23,8 +23,8 @@ Define row-index coefficient matrices and the overlap matrix by
 
 $$
 D_{ij}=g(\nabla_{T}N_{i},N_{j}),\quad
-E_{ij}=g(\nabla_{T}^{*}N_{i}^{*},N_{j}^{*}),\quad
-C_{ij}=g(N_{i},N_{j}^{*}).
+E_{ij}=g(\nabla_{T}^{\*}N_{i}^{\*},N_{j}^{\*}),\quad
+C_{ij}=g(N_{i},N_{j}^{\*}).
 $$
 
 The projection recursion gives the prescribed lower-Hessenberg pattern. Orthonormality does not generally make $D$ skew-symmetric:
