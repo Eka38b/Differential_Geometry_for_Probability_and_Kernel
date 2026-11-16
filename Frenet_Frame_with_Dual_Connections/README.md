@@ -30,13 +30,13 @@ $$
 
 Only strictly lower-triangular entries are unknown. The superscript star labels the second list; transpose is written $T$. The matrices are lower Hessenberg in this explicit convention. Assuming a pair exists, **must the solution set be finite?** Can a nonconstant continuous family occur with all prescribed superdiagonals positive?
 
-See [Problem.md](docs/Problem.md) for the dual-frame derivation, compatibility conditions, affine reduction, principal-minor uniqueness criterion, cut bounds, and the distinction between finiteness and uniqueness. The zero-source case $S=0$ is included as a specialization of this same question.
+See [Problem.md](Notes/Problem.md) for the dual-frame derivation, compatibility conditions, affine reduction, principal-minor uniqueness criterion, cut bounds, and the distinction between finiteness and uniqueness. The zero-source case $S=0$ is included as a specialization of this same question.
 
 ## Directory guide
 
 | Directory | Purpose |
 | --- | --- |
-| [docs/](docs/) | Algebraic formulation, information geometry, provenance, and Markdown conventions |
+| [Notes/](Notes/) | Algebraic formulation, information geometry, provenance, and Markdown conventions |
 | [Code/](Code/) | Shared fixed-data solver, alternative zero-source methods, paired synthesis, certificate verification, and audits |
 | [Surveys/](Surveys/) | Four experiments, each with a README, detailed methodology, results, and an entry point |
 | [Data/](Data/) | Frozen inputs, saved matrices, CSV tables, JSON diagnostics, exact certificates, and numerical geometry checks |
@@ -109,7 +109,7 @@ $$
 [\Omega,H]=0,\qquad [S,H]=0.
 $$
 
-These conditions interpret the extra hypothesis in the MathOverflow question; they are not consequences of alpha-connection duality alone. See [Information_Geometry.md](docs/Information_Geometry.md) for the derivation, frame dependence, and numerical implications.
+These conditions interpret the extra hypothesis in the MathOverflow question; they are not consequences of alpha-connection duality alone. See [Information_Geometry.md](Notes/Information_Geometry.md) for the derivation, frame dependence, and numerical implications.
 
 ## Citation
 
