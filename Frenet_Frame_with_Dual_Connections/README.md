@@ -6,7 +6,7 @@ Updated 16 November 2026. General finiteness is unresolved in this archive. Nume
 
 ## The problem
 
-Fix real matrices $C,S$ and real lists $d,d^{*},a,a^{*}$ satisfying
+Fix real matrices $C,S$ and real lists $d,d^{\*},a,a^{\*}$ satisfying
 
 $$
 C^{T}C=I,\qquad Ce_{1}=e_{1},\qquad S^{T}=-S,\qquad Se_{1}=0,
@@ -16,8 +16,8 @@ $$
 Find real matrices $D,E$ with fixed upper entries
 
 $$
-D_{ii}=d_{i},\quad E_{ii}=d_{i}^{*},\quad
-D_{i,i+1}=a_{i},\quad E_{i,i+1}=a_{i}^{*},\quad
+D_{ii}=d_{i},\quad E_{ii}=d_{i}^{\*},\quad
+D_{i,i+1}=a_{i},\quad E_{i,i+1}=a_{i}^{\*},\quad
 D_{ij}=E_{ij}=0\quad(j>i+1),
 $$
 
