@@ -131,10 +131,20 @@ A singular Jacobian does not establish continuous freedom. For example, a cyclic
 
 A four-dimensional zero-source example uses
 
-$$
-C=\begin{pmatrix}1&0&0&0\\ 0&0&0&-1\\ 0&0&1&0\\ 0&-1&0&0\end{pmatrix},\qquad
-F(t)=\begin{pmatrix}0&a&0&0\\ 0&0&b&0\\ 0&t&0&b\\ a&0&t&0\end{pmatrix}.
-$$
+```math
+C=\left(\begin{array}{rrrr}
+1&0&0&0\cr
+0&0&0&-1\cr
+0&0&1&0\cr
+0&-1&0&0
+\end{array}\right),\qquad
+F(t)=\left(\begin{array}{rrrr}
+0&a&0&0\cr
+0&0&b&0\cr
+0&t&0&b\cr
+a&0&t&0
+\end{array}\right).
+```
 
 For $D=E=F(t)$, the affine relation holds and normality reduces to $t^{2}=b^{2}-a^{2}$. At $a=3,b=5$ there are exactly two pairs, $t=\pm4$; at $a=b=3$ the unique root is singular. All superdiagonals remain positive. Survey 2 supplies certified higher-dimensional examples whose solutions also have different entry magnitudes, so sign branches are not a general description of multiplicity.
 
