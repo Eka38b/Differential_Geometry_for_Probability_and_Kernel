@@ -44,14 +44,14 @@ Orthogonality gives $S^{T}=-S$. The common tangent gives $Ce_{1}=e_{1}$, and dif
 
 ## Fixed data and the question
 
-At one time, prescribe $C,S,d,d^{*},a,a^{*}$. The matrices $C,S$ satisfy the conditions above, and every entry of $a,a^{*}$ is positive. The matrices $D,E$ have those diagonals and superdiagonals and vanish for $j>i+1$. Only strictly lower entries vary. Impose the dual affine relation and normality of both matrices.
+At one time, prescribe $C,S,d,d^{\*},a,a^{\*}$. The matrices $C,S$ satisfy the conditions above, and every entry of $a,a^{*}$ is positive. The matrices $D,E$ have those diagonals and superdiagonals and vanish for $j>i+1$. Only strictly lower entries vary. Impose the dual affine relation and normality of both matrices.
 
 Assuming compatibility, is the fiber of pairs $(D,E)$ finite? A positive answer would still permit multiple isolated pairs. Pointwise finiteness would also require further work before it implied smooth branch selection or a fundamental theorem for ambient curves.
 
 Necessary compatibility conditions include
 
 $$
-d_{1}^{*}=-d_{1},\qquad \sum_{i=1}^{n}(d_{i}+d_{i}^{*})=0.
+d_{1}^{\*}=-d_{1},\qquad \sum_{i=1}^{n}(d_{i}+d_{i}^{\*})=0.
 $$
 
 They do not guarantee existence. The curve-data interpretation supplies $S$ from the derivative of $C$; the algebraic question freezes its value.
