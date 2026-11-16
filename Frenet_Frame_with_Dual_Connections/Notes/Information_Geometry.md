@@ -96,7 +96,7 @@ $$
 the unit-speed line with tangent $(1,1)/\sqrt{2}$ gives
 
 $$
-D=E=\begin{pmatrix}0&a\\a&0\end{pmatrix},\qquad
+D=E= \left( \begin{array}{rr}0&a\cr a&0\end{array}\right),\qquad
 C=\begin{pmatrix}1&0\\0&-1\end{pmatrix},\qquad S=0.
 $$
 
