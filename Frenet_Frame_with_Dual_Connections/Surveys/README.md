@@ -1,12 +1,13 @@
-# Numerical studies for the MathOverflow problem
+# Survey 01: the zero-source specialization
 
-Each study has an entry point, a detailed methodology document, a results document, and a corresponding dataset in the top-level `Data` directory.
+This survey studies the MathOverflow problem with $S=0$. All retained inputs fix both diagonal lists and both positive superdiagonal lists, and impose both normality equations. The dataset contains 69 compatible inputs from the recorded 7 November 2026 campaign.
 
-| Study | Methodology | Results | Data |
-| --- | --- | --- | --- |
-| [01 zero source](01_zero_source/README.md) | [Details](01_zero_source/Methodology.md) | [Recorded results](01_zero_source/Results.md) | [Dataset](../Data/01_zero_source/README.md) |
-| [02 magnitude multiplicity](02_magnitude/README.md) | [Details](02_magnitude/Methodology.md) | [Recorded results](02_magnitude/Results.md) | [Dataset](../Data/02_magnitude/README.md) |
-| [03 shared-tangent source](03_shared_tangent_source/README.md) | [Details](03_shared_tangent_source/Methodology.md) | [Recorded results](03_shared_tangent_source/Results.md) | [Dataset](../Data/03_shared_tangent_source/README.md) |
-| [04 alpha connections](04_alpha_connections/README.md) | [Details](04_alpha_connections/Methodology.md) | [Recorded results](04_alpha_connections/Results.md) | [Dataset](../Data/04_alpha_connections/README.md) |
+Read [Methodology.md](Methodology.md) for construction, affine reduction, algorithms, thresholds, and interpretation. [Results.md](Results.md) records the retained results. The reusable inputs and matrices are in [Data/01_zero_source/](../../Data/01_zero_source/README.md).
 
-Studies 01 and 02 export only the historically recorded cases satisfying the public problem's fixed-diagonal and positive-superdiagonal requirements. Study 03 generates nonzero sources with the required shared tangent. Study 04 tests geometric identities and clearly labels matrices that fail the added normality hypothesis.
+From the archive root, replay a small subset into a new directory:
+
+```bash
+python Surveys/01_zero_source/run.py --out Reproduced/01 --starts 24 --limit 5
+```
+
+Omit the limit to search all retained inputs. The replay solver is adapted to the current public formulation; historical counts refer to the saved campaign, not to this new replay. It initializes from supplied compatible witnesses and does not claim exhaustive root recovery.
